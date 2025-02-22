@@ -1,0 +1,24 @@
+  /* Extra small devices (phones, 600px and down) */
+  @media only screen and (max-width: 600px) {
+    .education {
+        padding-top: 0 !important;
+    }
+    .education .card{
+        display: grid;
+        justify-content: center;
+        text-align: left;
+        align-items: center;
+        padding: 0;
+        
+    }
+    .education div .img{
+        display: flex;
+        justify-content: center;
+    }
+    .education .text{
+        padding: 24px;
+    }
+    .education .text div, .education .text p{
+        font-size: 0.8rem !important;
+    }
+  }

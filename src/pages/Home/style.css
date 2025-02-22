@@ -1,0 +1,154 @@
+.link-box ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around !important;
+    align-items: center;
+}
+.link-box ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2px;
+}
+.link-box ul li:hover{
+    border-bottom: 2px solid #5AB2FF;
+    transition: all 0.3s ease;
+}
+.link-box ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+.home-body .col3{
+    display: flex;
+    align-items: center;
+}
+.home-body .col2{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+
+.social-icon ion-icon{
+    width: 30px;
+    height: 30px;
+    margin: 10px 10px 10px 0;
+    padding: 8px;
+    transition: all 0.5s ease;
+    border-radius: 40%;
+}
+.social-icon ion-icon:hover{
+    background-color: #fff;
+    transition: all 0.5s ease;
+}
+.social-icon ion-icon:hover:nth-child(1){
+    color: #0a66c2;
+}
+.social-icon ion-icon:hover:nth-child(2){
+    color: black;
+}
+.social-icon ion-icon:hover:nth-child(3){
+    color: #c32aa3;
+}
+.social-icon ion-icon:hover:nth-child(4){
+    color: #1da1f2;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .logo-box{
+        display: none;
+    }
+    .home{
+        padding: 0 !important;
+        margin: 0;
+        padding-top: 0 !important;
+        height: 100vh;
+    }
+    .sm-logo{
+        padding: 2px;
+        margin: 0 auto;
+        width: 12rem;
+        margin-bottom: 14px;
+        border: 2px solid #241C2E;
+        border-radius: 0 0 20px 20px;
+    }
+    #home .container{
+        margin: 0 2rem !important;
+    }
+    .link-box{
+        width: 100%;
+    }
+    .link-box ul{
+        font-size: 0.7rem;
+    }
+    .home-body{
+        display: grid;
+        height: 70vh;
+    }
+    .home-body .typriter {
+
+        width: 100% !important;
+        height: 16rem;
+        display: flex;
+        justify-content: space-between;
+    }
+    .home-body .typriter .col1{
+        width: 25% !important;
+    }
+    .home-body .typriter .col2{
+        margin-top: 2rem;
+        width: 75% !important;
+        display: block;
+    }
+    .home-body .typriter .col2 h1{
+        font-size: 1rem;
+    }
+    .home-body .col3{
+        width: 100vw !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .home-body .col2 ion-icon{
+        width: 20px;
+        height: 20px;
+        margin: 6px 6px 6px 0;
+        padding: 4px;
+        transition: all 0.5s ease;
+        border-radius: 20%;
+    }
+    .home-body .col2 Button{
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+    .home-body .col3 img{
+        width: 12rem;
+        margin: auto;
+    }
+    .typriter .profile-box{
+        height: auto;
+    }
+    
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .sm-logo{
+        display: none;
+    }
+    #home{
+        padding-top: 32px;
+    }
+    .home-body .typriter{
+        width: 75%;
+    }
+    .home-body .col1{
+        width: 25%;
+    }
+    .home-body .col2{
+        width: 50%;
+    }
+}

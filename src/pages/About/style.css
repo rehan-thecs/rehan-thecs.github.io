@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Phudu:wght@600&family=Rowdies:wght@300;400;700&display=swap');
+
+.rowdies-light {
+    font-family: "Rowdies", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+
+  /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  #about{
+    height: 100vh;
+    margin-bottom: 4rem;
+  }
+  .row2{
+    display: grid;
+  }
+  .col1{
+    width: 100%;
+  }
+  .col1 img{
+    width: 10rem;
+  }
+  .col2 h1{
+    font-size: 1.25rem;
+    margin-top: 10px;
+  }
+  .col2 h3{
+    font-size: 1rem;
+  }
+  .col2 p{
+    font-size: 0.8rem;
+    text-align: center;
+  }
+  .col2 .font-bold{
+    font-size: 0.8rem;
+  }
+  .col2 Button{
+    font-size: 14px;
+    padding: 10px 20px;
+    margin: 0 auto;
+
+  }
+  #about .col2{
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+  }
+}

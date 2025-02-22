@@ -1,0 +1,13 @@
+
+  
+    /* Extra small devices (phones, 600px and down) */
+    @media only screen and (max-width: 600px) {
+      .row2{
+        display: flex;
+        flex-direction: column;
+      }
+      .row2 .card{
+        width: 80%;
+        padding: 0;
+      }
+    }

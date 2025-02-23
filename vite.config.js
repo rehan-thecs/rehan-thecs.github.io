@@ -6,3 +6,6 @@ import tailwindcss from '@tailwindcss/vite'
 export default defineConfig({
   plugins: [react(),tailwindcss()],
 })
+export default {
+  base: '/rehan-thecs.github.io/', // Set this to the name of your repo if it's not hosted on your GitHub profile root
+}
